@@ -14,4 +14,5 @@ class personbil:
     def get_bagagevolym(self):
         return self.bagagevolym
 
-    
+    def print_fordon(self):
+        print(f"\n\t{self.fabrikat} \t\nFärg: {self.color} \t\nBagagevolym: {self.bagagevolym}")
