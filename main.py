@@ -30,10 +30,24 @@ def print_fordonslista(fordonslista):
 
 
 while looping == True:
-    
-    print_fordonslista(LastbilsArray)
+
+    val_av_fordon = input("\nVilket typ av fordon vill du visa? \n\t1.\tLastbilar \n\t2. \tPersonbilar\n\t\t:")
+
+
+    if (val_av_fordon == "1"):
+        print("\n\n\n\n\nLista med lastbilar \n\n")
+        print_fordonslista(LastbilsArray)
+    elif (val_av_fordon == "2"):
+        print("\n\n\n\n\nLista med personbilar \n\n")
+        print_fordonslista(PersonbilArray)
+    else:
+        print("Yo kanske ska skriva en av siffrorna??")
+
 
     go = input("\n Vill du lista fordon igen? (j/n): ")
+    
+    print("--------------------------------")
+    print(f"\nKlasser och Arv")
 
    
 
