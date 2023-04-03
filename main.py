@@ -46,8 +46,8 @@ while looping == True:
 
     go = input("\n Vill du lista fordon igen? (j/n): ")
     
-    print("--------------------------------")
-    print(f"\nKlasser och Arv")
+    # print("--------------------------------")
+    # print(f"\nKlasser och Arv")
 
    
 
