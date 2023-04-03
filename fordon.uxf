@@ -1,0 +1,37 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>520</x><y>110</y><w>220</w><h>200</h></coordinates><panel_attributes>Fordon
+--
+fabrikat:str
+color:str
+--
+_init_constructor(fabrikat,color)
+set_fabrikat(str)
+get_Fabrikat()Str
+set_color(str)
+get_color(str)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>370</y><w>290</w><h>210</h></coordinates><panel_attributes>Lastbil
+--
+fabrikat.str
+color.str
+flakvolym
+--
+_init_construktor(fabrikat, color, flakvolym)
+set_flakvolym(int)
+get_flakvolym() int
+print fordon()
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>370</y><w>270</w><h>260</h></coordinates><panel_attributes>Personbil 
+--
+fabrikat.str
+color.str
+bagagevolym.int
+--
+_init_constructor(fabrikat, color, bagagevolym)
+set_bagagevolym(int)
+get_bagagevolym().int
+print</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>290</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>290</y><w>80</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>30</y><w>350</w><h>270</h></coordinates><panel_attributes>Main.py
+--
+looping: boolean
+personbils_register[Personbil]
+lastbils_register[]
+-- 
+main()
+print fordon((</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>230</y><w>300</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>280;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>300</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>80;10;10;70</additional_attributes></element></diagram>
